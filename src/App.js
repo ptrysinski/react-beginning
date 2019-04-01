@@ -3,6 +3,7 @@ import DisplayPrefix from './DisplayPrefix'
 import DisplayName from './DisplayName'
 import WhatReactCanDisplay from './WhatReactCanDisplay'
 import DisplayPassedName from './DisplayPassedName'
+import DisplayFirstNameAndLastName from './DisplayFirstNameAndLastName'
 
 const App = () => (
   <div>
@@ -12,6 +13,10 @@ const App = () => (
     <WhatReactCanDisplay />
     <DisplayPassedName
       name = {'Piotr'}
+    />
+    <DisplayFirstNameAndLastName
+      firstName = {'Piotr'}
+      lastName = {'Trysiński'}
     />
   </div>
 )
